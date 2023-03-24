@@ -1,0 +1,21 @@
+.icon {
+    z-index: -1;
+}
+
+.icon:hover {
+    background-color: rgb(187, 87, 16);
+}
+
+.parent:hover .icon {
+    z-index: 1;
+}
+
+.parent:hover {
+    transition: all 1s;
+    opacity: 0.6;
+}
+
+.parent:hover .image {
+    border-radius: 0;
+
+}
